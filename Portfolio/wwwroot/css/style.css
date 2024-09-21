@@ -1,0 +1,538 @@
+* {
+      margin: 0;
+      padding: 0;
+      font-family: "SUSE", sans-serif;
+  }
+
+  body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: black;
+  }
+
+  .header {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 600;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+  }
+.navbar {
+    padding: 10px 5px;
+    margin-top: 10px;
+}
+
+.navbar a {
+    margin-right: 20px;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    position: relative;
+    /* Allowing use of the ::after pseudo-element */
+}
+
+.navbar a::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    /* Ensure the line stays directly under the text */
+    left: 0;
+    width: 0;
+    height: 2px;
+    /* Thickness of the line */
+    background-color: rgba(255, 217, 0, 0.664);
+    /* Color of the line */
+    transition: width 0.3s ease-in-out;
+    /* Smooth transition for the line */
+}
+
+.navbar a.active {
+    color: rgba(255, 217, 0, 0.664);
+    /* Highlight the active link */
+     
+}
+
+.navbar a.active::after {
+    width: 100%;
+    /* Full underline for the active link */
+}
+
+.navbar a:hover::after {
+    width: 100%;
+    /* Expands the line to full width on hover */
+}
+
+.navbar a:hover {
+    color: rgba(255, 217, 0, 0.664);
+    /* Change text color on hover */
+    transition: 0.3s ease-in;
+    /* Smooth color transition */
+}
+
+  .Name a {
+      color: white;
+      font-size: 1.3rem;
+      display: flex;
+      align-items: center;
+      margin: 20px;
+      -webkit-user-select: none;
+      text-decoration: none;
+  }
+
+  /* Main container css */
+  .container {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 80px;
+      /* Padding to prevent overlap with navbar */
+  }
+
+  .container1 {
+      padding: 150px 150px;
+      color: white;
+      font-size: 1.3rem;
+  }
+
+  .content {
+      line-height: 50px;
+  }
+
+  .content h1 {
+      width: -10px;
+  }
+
+  .content p {
+      font-size: 0.9rem;
+      color: rgba(255, 217, 0, 0.664);
+  }
+
+  .content h1 span,
+  span {
+      color: rgba(255, 217, 0, 0.664);
+      font-size: 3rem;
+  }
+
+  .container2 img {
+      width: 100vh;
+  }
+
+  .color {
+      color: rgba(255, 217, 0, 0.664);
+  }
+
+  button {
+      padding: 15px 25px;
+      border-radius: 30px;
+      border: 1px solid white;
+      background-color: black;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+  }
+
+  button:hover {
+      color: black;
+      background-color: rgba(255, 217, 0, 0.664);
+      transition: 0.3s ease-out;
+  }
+
+  .downloadbutton {
+      margin-top: 20px;
+  }
+
+  .about {
+      margin-top: 150px;
+      color: white;
+
+
+  }
+
+  .about .section2 h1 {
+      margin-bottom: 50px;
+      font-size: 3rem;
+  }
+
+  .aboutcontent {
+      display: flex;
+  }
+
+  .section1 {
+      width: 40%;
+      padding: 100px;
+  }
+
+  .section2 {
+      width: 60%;
+      padding: 10px 80px;
+  }
+
+  .section2 pre {
+      margin: 10px;
+      padding-top: 20px;
+  }
+
+  .section2 p {
+      margin-bottom: 20px;
+  }
+
+  .Project {
+      color: rgba(255, 217, 0, 0.664);
+      font-size: 1.2rem;
+      margin-right: 10px;
+  }
+
+  .projectcontainer {
+      margin-top: 50px;
+  }
+
+/* Services CSS */
+  .services {
+      padding: 100px;
+      color: white;
+  }
+
+  .services h1 {
+      text-align: center;
+      margin: 60px 0;
+  }
+
+  .service-card i {
+      margin: 0 0 30px 0;
+  }
+
+  .service-card {
+      background-color: #a99000;
+      width: 30%;
+      padding: 50px;
+      text-align: center;
+      border-radius: 10px;
+      margin: 10px;
+      cursor: pointer;
+      transition: 0.3s ease-in;
+  }
+
+  .service-card:hover {
+      background-color: #a9900081;
+      transform: translateY(-10px);
+  }
+
+  .services-content {
+      display: flex;
+      justify-content: space-between;
+      margin: 10px 0 0 0;
+  }
+
+  .services-content p {
+      font-size: 0.8rem;
+      margin: 20px 0;
+      line-height: 20px;
+  }
+/*Skill Section*/
+.blog-container {
+     display: flex;
+     margin: 80px 80px -10px 80px;
+     justify-content: center;
+     padding: 20px;
+     color: white;
+ }
+
+ .blog-post {
+     background-color: #ffffff4a;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+     margin: 20px;
+     width: calc(50% - 20px);
+ }
+
+ .blog-post img {
+     width: 100%;
+     border-radius: 10px;
+ }
+
+ .blog-post h2 {
+     margin: 10px 0;
+     font-size: 1.8rem;
+     color: rgba(255, 217, 0, 0.664);
+ }
+
+ .blog-post p {
+     font-size: 1rem;
+     line-height: 1.6;
+ }
+
+ @media (max-width: 768px) {
+     .blog-post {
+         width: 100%;
+     }
+ }
+
+ .recent-posts {
+     background-color: rgba(255, 255, 255, 0.178);
+     border-radius: 10px;
+     margin: 20px 110px;
+ }
+
+ .recent-posts h3 {
+     font-size: 2rem;
+     color: rgba(255, 217, 0, 0.664);
+     padding: 10px 20px 5px;
+ }
+
+ .recent-posts ul li a {
+     text-decoration: none;
+
+     color: white;
+ }
+
+ .recent-posts ul li {
+     line-height: 30px;
+ }
+
+ .recent-posts ul {
+     padding: 20px;
+     list-style: inside;
+ }
+
+/* Project */
+.portfolio {
+    padding: 50px 20px;
+
+    color: #e6f1ff;
+}
+
+.portfolio h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+
+    margin-top: 50px;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.portfolio-item:hover {
+    background-color: rgba(255, 217, 0, 0.664) !important;
+    transform: translateY(-10px);
+    transition: 0.3s ease-in;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.portfolio-item h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.portfolio-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+span {
+    color: rgba(255, 217, 0, 0.664);
+    font-size: 2rem;
+}
+
+.portfolio {
+    padding: 50px 20px;
+
+    color: #e6f1ff;
+}
+
+.portfolio h1 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.portfolio-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.portfolio-item {
+    background-color: #444;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+}
+
+.portfolio-item:hover {
+    background-color: #555;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.portfolio-item h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.portfolio-item p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.portfolio-item img {
+    width: 280px;
+    height: 200px;
+}
+
+h1 span {
+    color: rgba(255, 217, 0, 0.664);
+}
+
+/* Skill . css */
+ .outer-container {
+     margin: 100px;
+ }
+
+ /* Skills Section */
+ .skills {
+     width: 80%;
+     max-width: 600px;
+
+ }
+
+ .skills h1 {
+     text-align: center;
+     margin-bottom: 20px;
+     font-size: 2em;
+     color: #fff;
+ }
+
+ /* Skill Container */
+ .skill-container {
+     margin-bottom: 20px;
+ }
+
+ .skill-title {
+     font-size: 1.2em;
+     margin-bottom: 5px;
+     display: block;
+     color: #fff;
+ }
+
+ /* Skill Bar */
+ .skill-bar {
+     width: 100%;
+     height: 20px;
+     background-color: #333;
+     border-radius: 10px;
+     overflow: hidden;
+ }
+
+ .skill-level {
+     height: 100%;
+     border-radius: 10px;
+     animation: fillSkill 2s ease-in-out forwards;
+ }
+
+
+ /* Percentage label inside the bar */
+ .skill-level::after {
+     content: '';
+     position: absolute;
+     left: 0;
+     top: 0;
+     width: 100%;
+     height: 100%;
+     z-index: 0;
+     opacity: 0.3;
+ }
+
+ .html {
+     background-color: #00FF41;
+     width: 0%;
+     animation-name: htmlFill;
+ }
+
+ .css {
+     background-color: #00E0FF;
+     width: 0%;
+     animation-name: cssFill;
+ }
+
+ .js {
+     background-color: #FF3131;
+     width: 0%;
+     animation-name: jsFill;
+ }
+
+ .python {
+     background-color: #920630;
+     width: 0%;
+     animation-name: pythonFill;
+ }
+
+ .powerbi {
+     background-color: #FFD700;
+     width: 0%;
+     animation-name: powerbiFill;
+ }
+
+ @keyframes htmlFill {
+     to {
+         width: 70%;
+     }
+ }
+
+ @keyframes cssFill {
+     to {
+         width: 90%;
+     }
+ }
+
+ @keyframes jsFill {
+     to {
+         width: 40%;
+     }
+ }
+
+ @keyframes pythonFill {
+     to {
+         width: 80%;
+     }
+ }
+
+ @keyframes powerbiFill {
+     to {
+         width: 90%;
+     }
+ }
+
+ .percentage {
+     font-size: 1rem;
+     color: rgba(255, 217, 0, 0.664);
+     text-align: end;
+ }
