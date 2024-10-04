@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\6th semester\\Web technologies\\Portfolio\\Portfolio\\Portfolio.csproj": {}
+    "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Portfolio.csproj": {}
   },
   "projects": {
-    "F:\\6th semester\\Web technologies\\Portfolio\\Portfolio\\Portfolio.csproj": {
+    "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Portfolio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\6th semester\\Web technologies\\Portfolio\\Portfolio\\Portfolio.csproj",
+        "projectUniqueName": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Portfolio.csproj",
         "projectName": "Portfolio",
-        "projectPath": "F:\\6th semester\\Web technologies\\Portfolio\\Portfolio\\Portfolio.csproj",
+        "projectPath": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Portfolio.csproj",
         "packagesPath": "C:\\Users\\Mani\\.nuget\\packages\\",
-        "outputPath": "F:\\6th semester\\Web technologies\\Portfolio\\Portfolio\\obj\\",
+        "outputPath": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mani\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +45,22 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,153 @@
+﻿@page
+@model Portfolio.Pages.User.ContactModel
+@{
+}
+<style>
+    .contact-container {
+      display: flex;
+      color: white;
+      justify-content: space-between;
+      padding: 40px 20px;
+      margin: 50px auto;
+      max-width: 1200px;
+    }
+
+    .contact-form,
+    .contact-info {
+      background-color: black;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+    }
+
+    .contact-info {
+      background-color: rgba(255, 217, 0, 0.24);
+      margin-left: 20px;
+      transition: 0.3s ease-in-out;
+      cursor: pointer;
+    }
+
+    .contact-info:hover {
+      transform: translateY(-10px);
+      background-color: rgba(255, 217, 0, 0.664);
+    }
+
+    .contact-form {
+      width: 60%;
+    }
+
+    .contact-form h2,
+    .contact-info h2 {
+      margin-top: 0;
+      font-size: 1.8rem;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      color: #e6f1ff;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+      background-color: black;
+      border: 1px solid white;
+    }
+
+    .contact-form button:hover {
+      background-color: rgba(255, 217, 0, 0.664);
+    }
+
+    .contact-info {
+      width: 35%;
+    }
+
+    .contact-info p {
+      font-size: 1rem;
+      line-height: 1.6;
+    }
+
+    .contact-info .icons {
+      margin-top: 20px;
+      display: flex;
+      justify-content: center;
+    }
+
+    .contact-info .icons a {
+      color: white;
+      margin-right: 15px;
+      text-decoration: none;
+      font-size: 1.8rem;
+      transition: color 0.3s;
+    }
+
+    .contact-info .icons a:hover {
+      color: rgba(255, 217, 0, 0.664);
+    }
+
+    media (max-width: 768px) {
+      .contact-container {
+        flex-direction: column;
+      }
+
+      .contact-form,
+      .contact-info {
+        width: 100%;
+        margin-bottom: 20px;
+      }
+    }
+</style>
+
+ <h1 style="text-align: center; margin-top: 50px">Feel Free to Contact</h1>
+    <div class="contact-container">
+      <div class="contact-form">
+        <h2>Get in Touch</h2>
+        <form action="#" method="post">
+          <input type="text" placeholder="Your Name" required />
+          <input type="email" placeholder="Your Email" required />
+          <textarea placeholder="Your Message" rows="5" required></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+      <div class="contact-info">
+        <h2>Contact Information</h2>
+        <p>
+          If you have any questions or inquiries, feel free to reach out to me
+          using the contact form or through the following contact details:
+        </p>
+        <p><strong>Email:</strong> tashfeenakhonzada786@gmail.com</p>
+        <p><strong>Phone:</strong> 03480476880</p>
+        <p><strong>Address:</strong> Balghar Ghanche Gilgit Baltistan</p>
+        <div class="icons">
+          <a
+            href="https://www.facebook.com/profile.php?id=100070112310947"
+            target="_blank"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+          <a href="https://www.threads.net/tashfeenakhonzada" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.instagram.com/tashfeenakhonzada/?hl=en"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="https://github.com/tashfeen786" target="_blank"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/tashfeen-aziz-b51361292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </div>

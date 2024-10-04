@@ -1,3 +1,6 @@
+using Microsoft.EntityFrameworkCore;
+using Portfolio.Data;
+
 namespace Portfolio
 {
     public class Program
@@ -8,7 +11,9 @@ namespace Portfolio
 
             // Add services to the container.
             builder.Services.AddRazorPages();
-
+            var connn = builder.Configuration.GetConnectionString("Default_Connection").ToString();
+            builder.Services.AddDbContext<DataDbContext>(options => options.UseSqlServer(connn));
+            builder.Services.AddSession();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
