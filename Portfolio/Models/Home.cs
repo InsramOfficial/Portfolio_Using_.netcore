@@ -13,6 +13,8 @@ namespace Portfolio.Models
         public string Email { get; set; }
         public string Phone { get; set; }
         public string ProNO { get; set; }
+        //public string ImageName { get; set; }
+        //public IFormFile Image { get; set; }
 
     }
 }

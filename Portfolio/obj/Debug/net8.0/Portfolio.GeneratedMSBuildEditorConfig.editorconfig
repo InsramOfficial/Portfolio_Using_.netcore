@@ -22,6 +22,14 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/Admin/ShowHome.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd0hvbWUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/Admin/ShowServices.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd1NlcnZpY2VzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/Admin/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cX0FkbWluTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

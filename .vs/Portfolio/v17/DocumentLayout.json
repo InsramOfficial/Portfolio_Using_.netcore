@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|f:\\6th semester\\web technologies\\projects\\.net projects\\portfolio_using_.netcore\\portfolio\\pages\\admin\\showhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\pages\\admin\\showhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|f:\\6th semester\\web technologies\\projects\\.net projects\\portfolio_using_.netcore\\portfolio\\pages\\admin\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\pages\\admin\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|f:\\6th semester\\web technologies\\projects\\.net projects\\portfolio_using_.netcore\\portfolio\\models\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\models\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ShowHome.cshtml",
+              "DocumentMoniker": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Pages\\Admin\\ShowHome.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Pages\\Admin\\ShowHome.cshtml",
+              "ToolTip": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Pages\\Admin\\ShowHome.cshtml",
+              "RelativeToolTip": "Portfolio\\Pages\\Admin\\ShowHome.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-07T13:21:56.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Home.cs",
+              "DocumentMoniker": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Models\\Home.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Models\\Home.cs",
+              "ToolTip": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Models\\Home.cs",
+              "RelativeToolTip": "Portfolio\\Models\\Home.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T13:19:23.362Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "_AdminLayout.cshtml",
               "DocumentMoniker": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Pages\\Admin\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "Portfolio\\Pages\\Admin\\_AdminLayout.cshtml",
               "ToolTip": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Pages\\Admin\\_AdminLayout.cshtml",
               "RelativeToolTip": "Portfolio\\Pages\\Admin\\_AdminLayout.cshtml",
-              "ViewState": "AgIAAM4AAAAAAAAAAAAowNgAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAJcBAAAAAAAAAAAowMUBAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-04T13:27:51.458Z",
               "EditorCaption": ""
