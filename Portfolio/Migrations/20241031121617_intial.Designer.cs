@@ -12,8 +12,8 @@ using Portfolio.Data;
 namespace Portfolio.Migrations
 {
     [DbContext(typeof(DataDbContext))]
-    [Migration("20241004132545_2nd")]
-    partial class _2nd
+    [Migration("20241031121617_intial")]
+    partial class intial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -66,7 +66,7 @@ namespace Portfolio.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("homes");
+                    b.ToTable("home");
                 });
 #pragma warning restore 612, 618
         }

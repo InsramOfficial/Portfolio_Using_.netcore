@@ -63,7 +63,7 @@ namespace Portfolio.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("homes");
+                    b.ToTable("home");
                 });
 #pragma warning restore 612, 618
         }

@@ -11,6 +11,6 @@ namespace Portfolio.Data
 
         }
 
-        public DbSet<Home>homes { get; set; }
+        public DbSet<Home>home { get; set; }
     }
 }
