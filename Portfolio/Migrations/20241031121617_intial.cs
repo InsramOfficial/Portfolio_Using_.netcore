@@ -6,13 +6,13 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Portfolio.Migrations
 {
     /// <inheritdoc />
-    public partial class _2nd : Migration
+    public partial class intial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "homes",
+                name: "home",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -28,7 +28,7 @@ namespace Portfolio.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_homes", x => x.Id);
+                    table.PrimaryKey("PK_home", x => x.Id);
                 });
         }
 
@@ -36,7 +36,7 @@ namespace Portfolio.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "homes");
+                name: "home");
         }
     }
 }
