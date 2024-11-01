@@ -283,10 +283,10 @@
 				<div class="table-title">
 					<div class="row">
 						<div class="col-sm-6">
-							<h2>Manage <b>Employees</b></h2>
+							<h2>Manage <b>Services</b></h2>
 						</div>
 						<div class="col-sm-6">
-							<a href="AddServices" class="btn btedn-success" ><i class="material-icons">&#xE147;</i> <span>Add New Service</span></a>
+							<a href="AddServices" class="btn btn-success" ><i class="material-icons">&#xE147;</i> <span>Add New Service</span></a>
 							
 						</div>
 					</div>
@@ -295,25 +295,28 @@
 					<thead>
 						<tr>
 
-							<th>Name</th>
-							<th>Email</th>
-							<th>Address</th>
-							<th>Phone</th>
+							<th>Title</th>
+							<th>Description</th>
+							<th>Icon_Code</th>
 							<th>Actions</th>
 						</tr>
 					</thead>
 					<tbody>
-						<tr>
+						@foreach(var i in Model.Services)
+						{
+							<tr>
 
-							<td>Thomas Hardy</td>
-							<td>thomashardy@mail.com</td>
-							<td>89 Chiaroscuro Rd, Portland, USA</td>
-							<td>(171) 555-2222</td>
-							<td>
-								<a href="/admin/UpdateService" class="edit" ><i class="material-icons" data-toggle="tooltip" title="Edit">&#xE254;</i></a>
-								<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
-							</td>
-						</tr>
+								<td>@i.Title</td>
+								<td>@i.Description</td>
+								<td>@i.Icon</td>
+
+								<td>
+
+									<a asp-page="UpdateService" asp-route-id="@i.Id" class="edit"><i class="material-icons" title="Edit">&#xE254;</i></a>
+									<a href="#deleteEmployeeModal" class="delete" data-toggle="modal"><i class="material-icons" data-toggle="tooltip" title="Delete">&#xE872;</i></a>
+								</td>
+							</tr>
+						}
 
 					</tbody>
 				</table>

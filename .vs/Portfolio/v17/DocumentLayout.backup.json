@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\Github projects\\TashfeenGithubProject\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|d:\\github projects\\tashfeengithubproject\\portfolio\\pages\\admin\\showhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\pages\\admin\\showhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|d:\\github projects\\tashfeengithubproject\\portfolio\\pages\\admin\\updateservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\pages\\admin\\updateservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|d:\\github projects\\tashfeengithubproject\\portfolio\\pages\\admin\\updateservice.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\pages\\admin\\updateservice.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|d:\\github projects\\tashfeengithubproject\\portfolio\\pages\\admin\\showhome.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\pages\\admin\\showhome.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|d:\\github projects\\tashfeengithubproject\\portfolio\\data\\datadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\data\\datadbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|d:\\github projects\\tashfeengithubproject\\portfolio\\models\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\models\\home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|d:\\github projects\\tashfeengithubproject\\portfolio\\pages\\admin\\showhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\pages\\admin\\showhome.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,54 +38,54 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DataDbContext.cs",
-              "DocumentMoniker": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Data\\DataDbContext.cs",
-              "RelativeDocumentMoniker": "Portfolio\\Data\\DataDbContext.cs",
-              "ToolTip": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Data\\DataDbContext.cs",
-              "RelativeToolTip": "Portfolio\\Data\\DataDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:31:07.329Z",
+              "DocumentIndex": 3,
+              "Title": "ShowHome.cshtml",
+              "DocumentMoniker": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\ShowHome.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Pages\\Admin\\ShowHome.cshtml",
+              "ToolTip": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\ShowHome.cshtml",
+              "RelativeToolTip": "Portfolio\\Pages\\Admin\\ShowHome.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-01T12:48:31.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ShowHome.cshtml.cs",
               "DocumentMoniker": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\ShowHome.cshtml.cs",
               "RelativeDocumentMoniker": "Portfolio\\Pages\\Admin\\ShowHome.cshtml.cs",
               "ToolTip": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\ShowHome.cshtml.cs",
               "RelativeToolTip": "Portfolio\\Pages\\Admin\\ShowHome.cshtml.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:24:25.389Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Home.cs",
-              "DocumentMoniker": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Models\\Home.cs",
-              "RelativeDocumentMoniker": "Portfolio\\Models\\Home.cs",
-              "ToolTip": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Models\\Home.cs",
-              "RelativeToolTip": "Portfolio\\Models\\Home.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA9wAsAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T13:23:28.062Z",
+              "WhenOpened": "2024-11-01T12:48:35.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ShowHome.cshtml",
-              "DocumentMoniker": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\ShowHome.cshtml",
-              "RelativeDocumentMoniker": "Portfolio\\Pages\\Admin\\ShowHome.cshtml",
-              "ToolTip": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\ShowHome.cshtml*",
-              "RelativeToolTip": "Portfolio\\Pages\\Admin\\ShowHome.cshtml*",
-              "ViewState": "AgIAABgAAAAAAAAAAAAAACQAAAA6AAAAAAAAAA==",
+              "Title": "UpdateService.cshtml",
+              "DocumentMoniker": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\UpdateService.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Pages\\Admin\\UpdateService.cshtml",
+              "ToolTip": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\UpdateService.cshtml*",
+              "RelativeToolTip": "Portfolio\\Pages\\Admin\\UpdateService.cshtml*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T13:18:09.218Z",
+              "WhenOpened": "2024-11-01T12:45:06.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UpdateService.cshtml.cs",
+              "DocumentMoniker": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\UpdateService.cshtml.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Pages\\Admin\\UpdateService.cshtml.cs",
+              "ToolTip": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\UpdateService.cshtml.cs*",
+              "RelativeToolTip": "Portfolio\\Pages\\Admin\\UpdateService.cshtml.cs*",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAzwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-01T12:45:08.458Z",
               "EditorCaption": ""
             }
           ]
