@@ -10,7 +10,8 @@ namespace Portfolio.Pages.Admin
     {
         DataDbContext db;
         public List<Services> Services { get; set; }
-        public Services services { get; set; }
+       
+
        
         public ShowServicesModel(DataDbContext _db)
         {

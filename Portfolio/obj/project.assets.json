@@ -4106,19 +4106,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Insram ul haq\\.nuget\\packages\\": {}
+    "C:\\Users\\Mani\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Portfolio.csproj",
+      "projectUniqueName": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Portfolio.csproj",
       "projectName": "Portfolio",
-      "projectPath": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Portfolio.csproj",
-      "packagesPath": "C:\\Users\\Insram ul haq\\.nuget\\packages\\",
-      "outputPath": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\obj\\",
+      "projectPath": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Portfolio.csproj",
+      "packagesPath": "C:\\Users\\Mani\\.nuget\\packages\\",
+      "outputPath": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Insram ul haq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Mani\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4184,7 +4184,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

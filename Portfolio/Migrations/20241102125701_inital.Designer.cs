@@ -12,7 +12,7 @@ using Portfolio.Data;
 namespace Portfolio.Migrations
 {
     [DbContext(typeof(DataDbContext))]
-    [Migration("20241101103059_inital")]
+    [Migration("20241102125701_inital")]
     partial class inital
     {
         /// <inheritdoc />
@@ -24,6 +24,27 @@ namespace Portfolio.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("Portfolio.Models.Blogs", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Blogs");
+                });
 
             modelBuilder.Entity("Portfolio.Models.Home", b =>
                 {

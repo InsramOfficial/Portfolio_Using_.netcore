@@ -9,75 +9,79 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Portfolio
 build_property.RootNamespace = Portfolio
-build_property.ProjectDir = D:\Github projects\TashfeenGithubProject\Portfolio\
+build_property.ProjectDir = F:\6th semester\Web technologies\Projects\.net Projects\Portfolio_Using_.netcore\Portfolio\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Github projects\TashfeenGithubProject\Portfolio
+build_property.MSBuildProjectDirectory = F:\6th semester\Web technologies\Projects\.net Projects\Portfolio_Using_.netcore\Portfolio
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/Admin/AddServices.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/Admin/AddServices.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cQWRkU2VydmljZXMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/Admin/Index.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/Admin/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/Admin/ShowHome.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/Admin/ShowBlogs.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd0Jsb2dzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/Admin/ShowHome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd0hvbWUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/Admin/ShowServices.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/Admin/ShowServices.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cU2hvd1NlcnZpY2VzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/Admin/UpdateService.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/Admin/UpdateService.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cVXBkYXRlU2VydmljZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/Admin/_AdminLayout.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/Admin/_AdminLayout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cX0FkbWluTGF5b3V0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/Admin/_ViewStart.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/Admin/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5cX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/Index.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/User/Blogs.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/User/Blogs.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxCbG9ncy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/User/Contact.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/User/Contact.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxDb250YWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/User/Projects.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/User/Projects.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxQcm9qZWN0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/User/Services.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/User/Services.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxTZXJ2aWNlcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/User/Skills.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/User/Skills.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclxTa2lsbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/_ViewImports.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/_ViewStart.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Github projects/TashfeenGithubProject/Portfolio/Pages/Shared/_Layout.cshtml]
+[F:/6th semester/Web technologies/Projects/.net Projects/Portfolio_Using_.netcore/Portfolio/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-jrjsiumu31

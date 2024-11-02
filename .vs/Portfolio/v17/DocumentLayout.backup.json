@@ -1,17 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Github projects\\TashfeenGithubProject\\",
+  "WorkspaceRootPath": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|d:\\github projects\\tashfeengithubproject\\portfolio\\pages\\admin\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\pages\\admin\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|f:\\6th semester\\web technologies\\projects\\.net projects\\portfolio_using_.netcore\\portfolio\\pages\\admin\\showblogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\pages\\admin\\showblogs.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|d:\\github projects\\tashfeengithubproject\\portfolio\\pages\\admin\\showservices.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|f:\\6th semester\\web technologies\\projects\\.net projects\\portfolio_using_.netcore\\portfolio\\pages\\admin\\showblogs.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\pages\\admin\\showblogs.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|f:\\6th semester\\web technologies\\projects\\.net projects\\portfolio_using_.netcore\\portfolio\\pages\\admin\\showservices.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\pages\\admin\\showservices.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|d:\\github projects\\tashfeengithubproject\\portfolio\\pages\\admin\\showservices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|f:\\6th semester\\web technologies\\projects\\.net projects\\portfolio_using_.netcore\\portfolio\\pages\\admin\\showservices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{C5776204-703C-4C34-8172-E883EDCF75BF}|Portfolio\\Portfolio.csproj|solutionrelative:portfolio\\pages\\admin\\showservices.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -22,8 +26,26 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ShowBlogs.cshtml.cs",
+              "DocumentMoniker": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Pages\\Admin\\ShowBlogs.cshtml.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Pages\\Admin\\ShowBlogs.cshtml.cs",
+              "ToolTip": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Pages\\Admin\\ShowBlogs.cshtml.cs",
+              "RelativeToolTip": "Portfolio\\Pages\\Admin\\ShowBlogs.cshtml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T12:59:49.22Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -34,42 +56,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\_AdminLayout.cshtml",
-              "RelativeDocumentMoniker": "Portfolio\\Pages\\Admin\\_AdminLayout.cshtml",
-              "ToolTip": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\_AdminLayout.cshtml*",
-              "RelativeToolTip": "Portfolio\\Pages\\Admin\\_AdminLayout.cshtml*",
-              "ViewState": "AgIAAKUAAAAAAAAAAAAAALYAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T12:03:13.355Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ShowServices.cshtml.cs",
-              "DocumentMoniker": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\ShowServices.cshtml.cs",
-              "RelativeDocumentMoniker": "Portfolio\\Pages\\Admin\\ShowServices.cshtml.cs",
-              "ToolTip": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\ShowServices.cshtml.cs",
-              "RelativeToolTip": "Portfolio\\Pages\\Admin\\ShowServices.cshtml.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAgwB0AAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-02T11:44:59.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ShowServices.cshtml",
-              "DocumentMoniker": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\ShowServices.cshtml",
-              "RelativeDocumentMoniker": "Portfolio\\Pages\\Admin\\ShowServices.cshtml",
-              "ToolTip": "D:\\Github projects\\TashfeenGithubProject\\Portfolio\\Pages\\Admin\\ShowServices.cshtml",
-              "RelativeToolTip": "Portfolio\\Pages\\Admin\\ShowServices.cshtml",
-              "ViewState": "AgIAACsBAAAAAAAAAAAAADoBAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-02T11:41:43.755Z",
+              "Title": "ShowServices.cshtml.cs",
+              "DocumentMoniker": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Pages\\Admin\\ShowServices.cshtml.cs",
+              "RelativeDocumentMoniker": "Portfolio\\Pages\\Admin\\ShowServices.cshtml.cs",
+              "ToolTip": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Pages\\Admin\\ShowServices.cshtml.cs",
+              "RelativeToolTip": "Portfolio\\Pages\\Admin\\ShowServices.cshtml.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBEAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-02T13:05:27.606Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ShowServices.cshtml",
+              "DocumentMoniker": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Pages\\Admin\\ShowServices.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Pages\\Admin\\ShowServices.cshtml",
+              "ToolTip": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Pages\\Admin\\ShowServices.cshtml",
+              "RelativeToolTip": "Portfolio\\Pages\\Admin\\ShowServices.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T13:05:24.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ShowBlogs.cshtml",
+              "DocumentMoniker": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Pages\\Admin\\ShowBlogs.cshtml",
+              "RelativeDocumentMoniker": "Portfolio\\Pages\\Admin\\ShowBlogs.cshtml",
+              "ToolTip": "F:\\6th semester\\Web technologies\\Projects\\.net Projects\\Portfolio_Using_.netcore\\Portfolio\\Pages\\Admin\\ShowBlogs.cshtml",
+              "RelativeToolTip": "Portfolio\\Pages\\Admin\\ShowBlogs.cshtml",
+              "ViewState": "AgIAACcBAAAAAAAAAAAWwB0BAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-02T12:59:18.733Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 76,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             }
           ]
         }
